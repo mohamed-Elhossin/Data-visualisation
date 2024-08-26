@@ -1,8 +1,8 @@
 
-// Bar Chart for Weather
+ 
 const apiData2 = {
-    temperature: 49, // Temperature in Celsius
-    humidity: 20    // Humidity in percentage
+    temperature: 49, 
+    humidity: 20    
 };
 
 const temp = apiData2.temperature; 

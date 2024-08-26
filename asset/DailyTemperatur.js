@@ -1,6 +1,5 @@
 
-// +++++++++++++
-// Mock API Data for Daily Temperature over 4 Months
+
 const apiData3 = {
     temperatures: Array.from({ length: 120 }, () => Math.floor(Math.random() * 35) + 15), // Temperatures between 15 and 50
     days: Array.from({ length:120 }, (_, i) => `Day ${i + 1}`)

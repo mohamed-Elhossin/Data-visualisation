@@ -1,4 +1,4 @@
-// Bar Chart
+ 
 document.addEventListener('DOMContentLoaded', async () => {
     const ctx = document.getElementById('areaChart').getContext('2d');
 
@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         .sort((a, b) => b.area - a.area)
         .slice(0, 10)
         .map(country => country.area);
-
     const areaChart = new Chart(ctx, {
         type: 'bar',
         data: {

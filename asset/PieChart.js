@@ -1,6 +1,6 @@
 
 
-// Pie Chart
+ 
 document.addEventListener('DOMContentLoaded', async () => {
     const ctx = document.getElementById('populationChart').getContext('2d');
 

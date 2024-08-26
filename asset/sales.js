@@ -1,5 +1,5 @@
 
-// API About sales line charts
+ 
 const apiData = {
     sales: [10, 65, 20, 20, 30, 35, 15,80,60,46,32,47],
     months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
